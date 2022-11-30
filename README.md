@@ -8,5 +8,5 @@ Wagmi是一个React Hooks的集合，包含了你开始Ethereum所需的一切
 ```shell
 cd react-ts-wagmi-template
 npm install
-npm srun start
+npm run start
 ```
