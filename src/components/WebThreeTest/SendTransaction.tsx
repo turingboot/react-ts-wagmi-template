@@ -25,8 +25,6 @@ export function SendTransaction() {
   const { isLoading, isSuccess } = useWaitForTransaction({
     hash: data?.hash,
   })
-  
-  const [isSuccessSign,setIsSuccessSign] = useState(false)
 
   return (
     <form onSubmit={(e) => {
